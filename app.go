@@ -10,7 +10,7 @@ import (
 
 func main() {
 	var port string
-	flag.StringVar(&port, "p", "22", "specify port")
+	flag.StringVar(&port, "p", "8080", "specify port")
 	flag.Parse()
 	localIp, err := getLocalAddress()
 	if err != nil {
