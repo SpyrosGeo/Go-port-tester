@@ -9,3 +9,10 @@ Because Vodafone Routers and learning Go
 ## Is this useful to anyone else?
 
 Nope.
+
+### How to Use:
+
+```bash
+
+./local-port-tester -p 8181
+```
